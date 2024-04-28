@@ -1,0 +1,9 @@
+marco <- function(name) {
+  if (name == "Marco") {
+    return("Polo")
+  } else {
+    return("No!")
+  }
+}
+
+print(marco("Bob"))
